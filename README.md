@@ -1,2 +1,4 @@
 # iss_tracker
-Location tracker for the International Space Station (ISS)
+Python program that tracks the location of the International Space Station (ISS)
+- shows coordinates + map location
+- shows travelled distance

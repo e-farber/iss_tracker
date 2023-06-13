@@ -35,7 +35,7 @@ if location2 is None:
 else:
     print('ISS location currently above {}'.format(location2.raw['display_name']))
 
-print('Distance travelled in past {} seconds on earth: {:.1f}km'
+print('Distance travelled in past {} seconds on earth: {:.1f}km'    # calculate travel distance
       .format(seconds, distance.distance((lat1, lon1), (lat2, lon2)).km))
 
 dist_factor = (6370+408)/6370       # (earth radius + ISS height) / earth radius
